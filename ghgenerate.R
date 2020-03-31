@@ -1,6 +1,6 @@
-proposal<-"Boilerplate ISC Proposal"
+proposal <- "Spatio-Temporal Data and Analytics"
 proposal.file<-"isc-proposal.Rmd"
-author<-"Steph Locke"
+author<-"Benedikt Gr&auml;ler, Edzer Pebesma"
 
 rmarkdown::render(proposal.file, output_format="html_document",
                   output_dir="out", quiet=TRUE)

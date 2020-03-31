@@ -8,15 +8,21 @@ Projects should have a definition of done that is measurable, and a thorough und
 What does success look like? 
 -->
 
+The package `sftime` is capable of representing irregular spatio-temporal data and provides visulaisations, summaries and coercen functions and is publishes on CRAN. Packages `gstat` and `spcopula` have been adoptd to the new data representaions and can directly use these to pursue the analysis.
+
 ## Measuring success
 <!-- 
 How will we know when success is achieved, what markers can we use along the way 
 -->
 
+Vignettes illustrate the usage and the succesful application for sample use-cases in all three adressed packages. The packages have been submitted to CRAN.
+
 ## Future work
 <!-- 
 How could this be extended / developed in the future by yourself and/or the community in general?
 -->
+
+The addressed modelling packages `gstat` and `spcopula` are only two examples, there are many more packages that provide spatial and spatio-temporal modelling capabilities. With the provision of `sftime`, also other package maintainer can take up the developments and adopt their packages to the new data representation suite. 
 
 ## Key risks
 <!-- 
@@ -28,3 +34,8 @@ What sort of things could come up that can delay or break the project?
  - [ ] Costs
 
 -->
+
+- Current assumptions on how `sftime` will work are too simple and the capabilites of S3 classes might be insufficient: as the development of `sftime` precedes the adoptions to be made to `gstat` and `spcopula` there is still the chnace to increase the data complexity to the maximum necessary and the minimum possible. 
+<!-- the applicants have also developed the predecessor `spacetime` and `sf`and rather confident to worl out a solution.-->
+- Incompabilities with depending and related packages: aproach maintainers of affected packages in an early phase and try to come to a constructive solution
+- costs will exceed the allocated resources due to unforeseen complexity: developments will be carried out in an agile and step-wise approach to ensure that efforts will lead to working solutions and useful adoptions to the packages.

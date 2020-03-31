@@ -10,6 +10,8 @@ Covering the planning phase, this section should provide a relatively detailed p
  - [ ] Reporting framework
 -->
 
+The needed resources for a colaborative development of `sftime` have alreay been initiated at GitHub. Intermediate and final reports will be publsihed as blog posts among others at [52°North](blog.52north.org) and where appropriate be reflected in vignettes documenting the functionalities. The small size of the project team and jointly developed packages will very much simplfiy the start-up phase. An inital design meeting will be scheduled for the very begining of the project.
+
 
 ## Technical delivery
 <!--
@@ -18,8 +20,22 @@ Covering the actual delivery of the project this section should provide at least
 Including target dates is really important as you need to be committed and the ISC need to have a means of tracking delivery
 -->
 
-## Other aspects
+The project is outlined for a 6 month period. The following milestones summarize the technical deliveries by month:
+
+| milestone | `sftime` | `gstat` | `spcopula` |
+|-----------|----------|---------|------------|
+| M1 | data representaion have been discussed and are defined  |  | upcoming changes in `copula` and `VineCopula` have been identified
+| M2 | data can be stored; summary functions are present |  | recent developments have been included 
+| M3 | objects can be constructed or coerced from `spacetime`, `sf` and simpler objects; initial plotting tools exist |  methods are adopted to `sf` and `stars` representations | methods are adopted to `sf` and `stars` representations
+| M4 | plotting tools have been revised | methods are adopted to `sftime` representations | methods are adopted to `sftime` representations
+| M5 | submitted to CRAN | submitted to CRAN | changes in `copula` and `VineCopula` haven been adressed
+| M6 |   |   | submitted to CRAN 
+
+In addition to the explicit schedule, the continuous development of related componentes will also serve as additional testing improving implmentations, useabilty and documentation.
+
 <!--
+## Other aspects
+
 Covering non-technical activities like on-going publicity, paper preparation, discussion groups etc. that might be required to facilitate successful delivery of the project.
 
  - [ ] Announcement post

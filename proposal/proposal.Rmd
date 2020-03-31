@@ -8,6 +8,8 @@ This is where the proposal should be outlined.
 At a high-level address what your proposal is and how it will address the problem identified. Highlight any benefits to the R Community that follow from solving the problem. This should be your most compelling section.
 -->
 
+We propose to fully develop the `sftime` package in order to let the suite of modern spatial and spatio-temporal data representations in R also handle irregular spatio-temporal data. After closing this gap, we will adopt the geostatistical modelling package [`gstat`](https://cran.r-project.org/package=gstat) and the spatal copula modelling package ['spcopula'](https://github.com/bengraeler/spcopula) to be compatible with the new data representaion classes among `sf`, `stars` and `sftime`. 
+
 ## Detail
 <!--
 Go into more detail about the specifics of the project and it delivers against the problem.
@@ -18,3 +20,21 @@ Depending on project type the detail section should include:
  - [ ] Architecture
  - [ ] Assumptions
 -->
+
+### Package `sftime`
+
+This is a new development closely following th design priciple of `sf`. This package will be able to handle irregular spatio-temporal data as an S3 class. Implementations will include convenient construction methods, plotting capabilities and summaries of data objects. The development will be made avaialble in the GitHub repositroy [r-spatial/sftime](https://github.com/r-spatial/sftime).  During the early pahse of the project, we will actively request comments on and reviews of the implementation via the R-sig-Geo mailing lsit and R developers in the domain. Once the package reaches a considerably robust state, it will be submitted to CRAN in to make it available to a larger community.
+ 
+<!-- The minimal viable product will be a thorough implementaion of a represnetion of irregular spatio-temporal data extending `sf` and compatible with `stars`. -->
+
+### Package `gstat` 
+
+The geostatitical modelling package `gstat` has a long history in the R community. It provides methods to model spatial and spatio-temporal data based on various Kriging approaches. Currently, it can conveneitly handle [`sp`](https:/cran.r-project.org/package=sp) and [`spacetime`](https:/cran.r-project.org/package=spacetime) objects. We will adopt the package to directly handle and benefit from the spatial and spatio-temporal data representations in packages `sf`, `stars` and `sftime`. Hence, no unnecessary back-and-forth conversions between data representaions will be needed. This will shorten the analysis workflow and ease the application of methods in the `gstat` package in a modern data set-up.
+
+### Package `spcopula`
+
+The spatial copula modelling package `spcopula` implements some of the rather recent developments of spatial statistics. While calssical geostatistics is mainly rooted in a Guassian assumption, copulas can take any multivariate distribution. This makes them in espcially useful for skewed disitrbutions or modelling rare events. Currently, `spcopula` can only handle objects from `sp` or `spacetime`. We will adopt the the methods of `spcopula`to also handle and benefit from the spatial and spatio-temporal data representations in packages `sf`, `stars` and `sftime` avoiding unnecessary coercens. Furthermore, `spcopula` will be upgraded to again seamleslly integrate with the packages [`copula`](https:cran.r-project.org/package=copula) and [`VineCopula`](https:cran.r-project.org/package=VineCopula). 
+
+### Development and Documentation
+
+Throughout the development, we will provide example applications wrapped in vignettes in order to guide users on how to use the new functionality. These vignettes will also help interested developers of packages currently depending on `sp` and pacetime` can adopt their packages to the new data representaions. All developments throughout the project will be made avaialble online and discussions are hgihly welcome. 
