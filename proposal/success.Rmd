@@ -8,21 +8,21 @@ Projects should have a definition of done that is measurable, and a thorough und
 What does success look like? 
 -->
 
-The package `sftime` is capable of representing irregular spatio-temporal data and provides visualisations, summaries and coercion methods, and is publishes on CRAN. Packages `gstat` and `spcopula` have been adopted to the new data representations and can directly use these to pursue the analysis. The implemented work is demonstrated in several vignettes with real use cases, and advertised in blog posts on `r-spatial.org`.
+The package `sftime` is capable of representing irregular spatiotemporal data and provides visualisations, summaries and coercion methods, and is publishes on CRAN. Packages `gstat` and `spcopula` have been adapted to the new data representations and can directly use these to pursue the analysis. The implemented work is demonstrated in several vignettes with real use cases, and advertised in blog posts on `r-spatial.org`.
 
 ## Measuring success
 <!-- 
 How will we know when success is achieved, what markers can we use along the way 
 -->
 
-Vignettes illustrate the usage and the succesful application for sample use-cases in all three adressed packages. The packages have been submitted to CRAN. The blog posts have been written.
+Vignettes illustrate the usage and the successful application for sample use-cases in all three addressed packages. The packages have been submitted to CRAN. The blog posts have been written.
 
 ## Future work
 <!-- 
 How could this be extended / developed in the future by yourself and/or the community in general?
 -->
 
-The addressed modelling packages `gstat` and `spcopula` are only two examples, there are many more packages that provide spatial and spatio-temporal modelling capabilities. With the provision of `sftime`, also other package maintainer can take up the developments and adopt their packages to the new data representation suite. Future packages to address include `stpp` for spatiotemporal point pattern analysis, and `surveillance` for spatiotemporal modeling and monitoring of epidemic phenomena.
+The addressed modelling packages `gstat` and `spcopula` are only two examples, there are many more packages that provide spatial and spatiotemporal modelling capabilities. With the provision of `sftime`, also other package maintainer can take up the developments and adapt their packages to the new data representation suite. Future packages to address include `stpp` for spatiotemporal point pattern analysis, and `surveillance` for spatiotemporal modelling and monitoring of epidemic phenomena.
 The authors of these packages will be contacted during the course of this project.
 
 ## Key risks
@@ -36,5 +36,5 @@ What sort of things could come up that can delay or break the project?
 
 -->
 
-- Incompabilities with depending and related packages: aproach maintainers of affected packages in an early phase and try to come to a constructive solution; use time to develop pull requests for these packages if needed.
-- costs will exceed the allocated resources due to unforeseen complexity: developments will be carried out in an agile and step-wise approach to ensure that efforts will lead to working solutions and useful adoptions to the packages, even if the final goal would turn out to be too complex for the resources available.
+- Incompatibilities with depending and related packages: approach maintainers of affected packages in an early phase and try to come to a constructive solution; use time to develop pull requests for these packages if needed.
+- costs will exceed the allocated resources due to unforeseen complexity: developments will be carried out in an agile and step-wise approach to ensure that efforts will lead to working solutions and useful adaptations to the packages, even if the final goal would turn out to be too complex for the resources available.

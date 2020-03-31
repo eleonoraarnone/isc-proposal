@@ -10,7 +10,7 @@ Covering the planning phase, this section should provide a relatively detailed p
  - [ ] Reporting framework
 -->
 
-The needed resources for a colaborative development of `sftime` have alreay been initiated at GitHub. Intermediate and final reports will be publsihed as blog posts among others at [52°North](blog.52north.org) and where appropriate be reflected in vignettes documenting the functionalities. The small size of the project team and jointly developed packages will very much simplfiy the start-up phase. An inital design meeting will be scheduled for the very begining of the project.
+The needed resources for a collaborative development of `sftime`, `gstat`and `spcopula` have already been initiated at GitHub. Intermediate and final reports will be published as blog posts on `r-spatial.org` and where appropriate be reflected in vignettes documenting the functionalities. The small size of the project team and already jointly developed packages will very much simplify the start-up phase. An initial design meeting will be scheduled for the very beginning of the project.
 
 
 ## Technical delivery
@@ -24,14 +24,14 @@ The project is outlined for a 6 month period. The following milestones summarize
 
 | milestone | `sftime` | `gstat` | `spcopula` |
 |-----------|----------|---------|------------|
-| M1 | data representaion have been discussed and are defined  |  | upcoming changes in `copula` and `VineCopula` have been identified
+| M1 | data representation has been discussed and is defined  |  | upcoming changes in `copula` and `VineCopula` have been identified
 | M2 | data can be stored; summary functions are present |  | recent developments have been included 
-| M3 | objects can be constructed or coerced from `spacetime`, `sf` and simpler objects; initial plotting tools exist |  methods are adopted to `sf` and `stars` representations | methods are adopted to `sf` and `stars` representations
-| M4 | plotting tools have been revised | methods are adopted to `sftime` representations | methods are adopted to `sftime` representations
-| M5 | submitted to CRAN | submitted to CRAN | changes in `copula` and `VineCopula` haven been adressed
+| M3 | objects can be constructed or coerced from `spacetime`, `sf` and simpler objects; initial plotting tools exist |  methods are adapted to `sf` and `stars` representations | methods are adapted to `sf` and `stars` representations
+| M4 | plotting tools have been revised | methods are adapted to `sftime` representations | methods are adapted to `sftime` representations
+| M5 | submitted to CRAN | submitted to CRAN | changes in `copula` and `VineCopula` haven been addressed
 | M6 |   |   | submitted to CRAN 
 
-In addition to the explicit schedule, the continuous development of related componentes will also serve as additional testing improving implmentations, useabilty and documentation.
+In addition to the explicit schedule, the continuous development of related components will also serve as additional testing improving implementations, usability and documentation.
 
 <!--
 ## Other aspects
