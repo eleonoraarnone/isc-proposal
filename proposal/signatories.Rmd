@@ -10,7 +10,12 @@ An optional section would be for R-Core signatories where changes to R are propo
 Who are the people responsible for actually delivering the project if the proposal gets accepted and are already signed up and rearing to go?
 -->
 
-Design and implementations in all three packages will be carried out by [Edzer Pebesma](https://github.com/edzer) and [Benedikt Gräler](https://github.com/bengraeler). Both are maintainer/contributor of the adressed packages and  `spacetime`, the predecessor of `sftime`. We will make discussions, design choices and implementations publicly available, but will i.e. discuss the development in the course of the project with ?? Roger ?? Robert ?? ... ??
+The authors are well equipped for the tasks proposed. Edzer Pebesma is author and maintainer of `sf` and `gstat`, and initiated `sftime`. Ben Graeler is author and maintainer of `spcopula`, co-author of `gstat` and `spacetime`, and is well aware of the recent `sf` and `stars` developments. Both have worked together in the last couple of years on both data science projects as on software development projects.
+
+The majority of the developments will be handled by [Benedikt Gräler](https://github.com/bengraeler).
+[Edzer Pebesma](https://github.com/edzer) will mostly have an
+advisory role, and and act as reviewer of pull requests, vignettes
+and blog posts.
 
 <!--
 ## Contributors
@@ -26,4 +31,4 @@ Who are the people who have actively helped with this proposal but won't necessa
 Who has been given the opportunity to provide feedback on the proposal? This should include any R Consortium & ISC members who the proposal has been discussed with.
 -->
 
-
+The need for the `sftime` package has been extensively discussed among the participants of the [OpenGeoHub summer school in September 2019](https://opengeohub.org/summer_school_2019). This discussion has led to a first, prototypical (and very incomplete) implementation of the package.

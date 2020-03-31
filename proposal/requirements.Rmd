@@ -8,14 +8,16 @@ An idea of what is required to make the project actually happen
 Who needs to be involved, what's the proposed structure, what will it take to get their involvement?
 -->
 
-Besides the applicants, w will need to discuss ideas and approahces with other developers in the domain. The Mailinglist R-sig-Geo is good resource to discuss ideas and promote developments along with the tools offered via e.g. GitHub.
+Besides the applicants, we will discuss ideas and approaches with other developers in the domain. The mailinglist `r-sig-geo` is a good resource to discuss ideas and promote developments along with the tools offered via e.g. GitHub.
+
+R-spatial developers we will actively involve for asking advice include: Roger Bivand, the `surveillance` authors Michael Höhle and Sebastian Meyer, and the `spatstat` author Ege Rubak.
 
 ## Processes
 <!-- 
 What processes need to be put in place e.g. codes of conduct, regular ISC meetings, handover to the community at large?
 -->
 
-We will employ the same code of conduct as has been used for `sf`.
+We will employ the same code of conduct as has been used for `sf`, found at https://github.com/r-spatial/sf/blob/master/CONDUCT.md; it is mostly a copy of the CoC developed by rOpenSci.
 <!-- Ref? -->
 
 
