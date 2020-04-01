@@ -1,4 +1,4 @@
-# The Problem
+# The problem
 <!-- 
 Outlining the issue / weak point / problem to be solved by this proposal. This should be a compelling section that sets the reader up for the next section - the proposed solution!
 

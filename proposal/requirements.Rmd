@@ -21,7 +21,7 @@ We will employ the same code of conduct as has been used for `sf`, found at [htt
 <!-- Ref? -->
 
 
-## Tools & Tech
+## Tools and technologies
 <!--
 What is going to be needed to deliver this project? 
 

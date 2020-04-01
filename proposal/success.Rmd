@@ -38,3 +38,8 @@ What sort of things could come up that can delay or break the project?
 
 - Incompatibilities with depending and related packages: approach maintainers of affected packages in an early phase and try to come to a constructive solution; use time to develop pull requests for these packages if needed.
 - costs will exceed the allocated resources due to unforeseen complexity: developments will be carried out in an agile and step-wise approach to ensure that efforts will lead to working solutions and useful adaptations to the packages, even if the final goal would turn out to be too complex for the resources available.
+
+## Acknowledgement
+
+This proposal is based on the [boilerplate by Steph Locke](https://github.com/RConsortium/isc-proposal).  
+ 
