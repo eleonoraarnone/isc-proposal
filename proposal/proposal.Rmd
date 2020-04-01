@@ -3,6 +3,8 @@
 This is where the proposal should be outlined. 
 -->
 
+This proposal does not explicitly address a topic or research question related to Covid-19, but the results will enable researchers in the R community to better organize and analyse their irregular spatiotemporal data related to the pandemic. The driving factor of the spread, the movement of people, but also the spatiotemporal distribution of current and future cases are per se irregular spatiotemporal data. Being able to easily visualise, aggregate and modell these data will help to better understand and control this and future pandemics. Filling the gap for irregular spatiotemporal data and providing direct interaction with analytical tools will ease the analysis for researchers. 
+
 ## Overview
 <!--
 At a high-level address what your proposal is and how it will address the problem identified. Highlight any benefits to the R Community that follow from solving the problem. This should be your most compelling section.
