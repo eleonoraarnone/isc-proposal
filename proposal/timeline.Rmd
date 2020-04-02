@@ -10,7 +10,7 @@ Covering the planning phase, this section should provide a relatively detailed p
  - [ ] Reporting framework
 -->
 
-The needed resources for a collaborative development of `sftime`, `gstat`and `spcopula` have already been initiated at GitHub. Intermediate and final reports will be published as blog posts on `r-spatial.org` and where appropriate be reflected in vignettes documenting the functionalities. The small size of the project team and already jointly developed packages will very much simplify the start-up phase. An initial design meeting will be scheduled for the very beginning of the project.
+The needed resources for a collaborative development of `sftime`, `gstat` and `spcopula` have already been initiated at GitHub. Intermediate and final reports will be published as blog posts on `r-spatial.org` and where appropriate be reflected in vignettes documenting the functionalities. The small size of the project team and already jointly developed packages will very much simplify the start-up phase. An initial design meeting will be scheduled for the very beginning of the project.
 
 
 ## Technical delivery
