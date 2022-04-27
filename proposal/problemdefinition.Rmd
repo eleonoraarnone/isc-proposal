@@ -10,4 +10,9 @@ It is important to cover:
  - [ ] Why it should be tackled
 -->
 
+Partial differential equations (PDEs) are a fundamental tool in many areas of mathematics and applied fields such as biology, chemistry, economy, physics and engineering. 
+In general, it is not possible to solve PDEs analitically, and a discretization method has to be used to obtain an approximated solution. One of the most common methods to discretize and solve PDEs is the Finite Element Method (FEM). This method enables the solution of PDEs on general shaped domains (i.e. not restricted to tensorized domains), with different types of boundary conditions. 
+Unfortunately, at the moment there exists no implementation of FE in R, as also mentioned by the [CRAN Task View on Differential Equations](https://cran.r-project.org/web/views/DifferentialEquations.html).
 
+This lack makes R users dependent on external softwares to solve PDEs with FE, making necessary the use of multiple softwares when statistical tools have to be combined with PDEs. This discourages statistician to solve PDEs with FE and encourages to solve PDEs only with Finite Differences. 
+Moreover, finite elements not only enable the possibility to solve PDEs, but also provide a finite basis system defined over triangulations of domains with a complicated shape. Therefore, the implementation of FEs in R would facilitate the development of new functional data analysis techniques for functional data defined of complicated multidimensional domains. 

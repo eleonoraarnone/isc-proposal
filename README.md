@@ -1,7 +1,12 @@
 # isc-proposal
 [![Build Status](https://travis-ci.org/stephlocke/isc-proposal.svg?branch=master)](https://travis-ci.org/stephlocke/isc-proposal)
 
-This repository is a boilerplate repository that helps you prepare your proposal for the [R Consortium](https://www.r-consortium.org).
+This repository is based on the [proposal boilerplate repository](https://github.com/RConsortium/isc-proposal) for the ISC calls of the [R Consortium](https://www.r-consortium.org).
+
+## Summary
+Add the summary.
+
+Remove everything below.
 
 ## Background 
 Set up in 2015, the R Consortium is an organisation set up to help support the R Foundation, the R Community, and R users.
